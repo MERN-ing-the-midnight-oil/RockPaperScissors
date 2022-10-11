@@ -39,7 +39,7 @@ window.alert("The Computer has chosen "+(computerChoice))
 //make an two-character array that gets the user's choice and computer's choice side-by-side called match
 var match = [userChoice,computerChoice].toString();   //I had to use toString to turn match into a string, because you can't compare arrays directly as it turns out.
 
-//NONE OF THE FOLLOWING IS WORKING
+//NONE OF THE FOLLOWING IS WORKING!!!
         if (match)==="R,R";{
             //add one to number of ties
             var ties = ties+1
